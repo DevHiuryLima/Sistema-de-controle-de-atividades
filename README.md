@@ -1,24 +1,26 @@
 # Sistema de controle de atividades
  
-Desafio
-Implementar uma tela de controle de atividades utilizando PHP e MariaDB (MySQL).
-A tela deve atender os seguintes requisitos:
- Possibilidade de adicionar novas atividades contendo um título, descrição e tipo;
- Listar as atividades em aberto;
- Marcar e desmarcar as atividades como concluídas;
- Listar as atividades concluídas;
- Editar o título, descrição e tipo de uma atividade;
- Remover uma atividade.
+##### Desafio  
+<p>Implementar uma tela de controle de atividades utilizando PHP e MariaDB (MySQL).</p>
+<p>A tela deve atender os seguintes requisitos: <br>
+ Possibilidade de adicionar novas atividades contendo um título, descrição e tipo;<br>
+ Listar as atividades em aberto;<br>
+ Marcar e desmarcar as atividades como concluídas;<br>
+ Listar as atividades concluídas;<br>
+ Editar o título, descrição e tipo de uma atividade;<br>
+ Remover uma atividade.<br>
+</p><br>
 
-Regras de negócio
- Os tipos de atividades podem ser: Desenvolvimento, Atendimento, Manutenção e Manutenção urgente;
- Atividades de manutenção urgente não podem ser removidas, apenas finalizadas;
- Atividades de atendimento e manutenção urgentes não podem ser finalizadas se a descrição estiver preenchida com menos de 50 caracteres;
- Manutenções urgentes não podem ser criadas (nem via edição) após as 13:00 das sextas-feiras.
+<p>Regras de negócio</p><br>
+<p> Os tipos de atividades podem ser: Desenvolvimento, Atendimento, Manutenção e Manutenção urgente;<br>
+ Atividades de manutenção urgente não podem ser removidas, apenas finalizadas;<br>
+ Atividades de atendimento e manutenção urgentes não podem ser finalizadas se a descrição estiver preenchida com menos de 50 caracteres;<br>
+ Manutenções urgentes não podem ser criadas (nem via edição) após as 13:00 das sextas-feiras.<br>
+</p><br>
 
-Requisitos Funcionais
-O sistema deve estar protegido por um login
-Todas as telas do sistema só poderão ser acessadas por usuários que estejam logados
+<p>Requisitos Funcionais</p><br>
+<p>O sistema deve estar protegido por um login<p><br>
+<p>Todas as telas do sistema só poderão ser acessadas por usuários que estejam logados</p><br>
 
-Requisitos Não Funcionais
-O sistema deve armazenar em banco de dados, de forma segura, a senha de acesso dos usuários.
+<p>Requisitos Não Funcionais</p><br>
+<p>O sistema deve armazenar em banco de dados, de forma segura, a senha de acesso dos usuários.</p><br>
